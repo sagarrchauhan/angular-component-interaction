@@ -16,6 +16,12 @@ import { ChildO1Component } from './output-binding/child-o1/child-o1.component';
 import { AccessingChildComponent } from './accessing-child/accessing-child.component';
 import { ParentA1Component } from './accessing-child/parent-a1/parent-a1.component';
 import { ChildA1Component } from './accessing-child/child-a1/child-a1.component';
+import { ParentA2Component } from './accessing-child/parent-a2/parent-a2.component';
+import { ServiceMethodComponent } from './service-method/service-method.component';
+import { ParentS1Component } from './service-method/parent-s1/parent-s1.component';
+import { ParentS2Component } from './service-method/parent-s2/parent-s2.component';
+import { ChildS1Component } from './service-method/child-s1/child-s1.component';
+import { ChildS2Component } from './service-method/child-s2/child-s2.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +38,12 @@ import { ChildA1Component } from './accessing-child/child-a1/child-a1.component'
     AccessingChildComponent,
     ParentA1Component,
     ChildA1Component,
+    ParentA2Component,
+    ServiceMethodComponent,
+    ParentS1Component,
+    ParentS2Component,
+    ChildS1Component,
+    ChildS2Component,
   ],
   imports: [
     BrowserModule,

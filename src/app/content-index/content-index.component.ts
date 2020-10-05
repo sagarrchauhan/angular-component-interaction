@@ -19,6 +19,10 @@ export class ContentIndexComponent implements OnInit {
     {
       text: "Accessing child properties and behaviour in parent",
       route: "/accessing-child"
+    },
+    {
+      text: "Accessing far off components",
+      route: "/service-method"
     }
   ]
 
