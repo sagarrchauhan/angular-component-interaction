@@ -1,0 +1,10 @@
+<div class="container parent-class">
+    <h3>Parent component</h3>
+    <div class="button-container">
+        <button class="btn btn-secondary" (click)="childref.dataProperty = 6">Manipulate Property</button>
+        <button class="btn btn-secondary" (click)="childref.dataMethod()">Call Child Method</button>
+    </div>
+    <div class="container">
+        <app-child-a1 #childref></app-child-a1>
+    </div>
+</div>

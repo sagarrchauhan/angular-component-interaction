@@ -9,12 +9,16 @@ export class ContentIndexComponent implements OnInit {
 
   topics = [
     {
-      text: "Parent to child with Input Binding",
+      text: "Data flow Parent to Child ",
       route: "/input-binding"
     },
     {
-      text: "Child to parent with Output Binding and Eventemitter",
+      text: "Data flow Child to Parent",
       route: "/output-binding"
+    },
+    {
+      text: "Accessing child properties and behaviour in parent",
+      route: "/accessing-child"
     }
   ]
 
